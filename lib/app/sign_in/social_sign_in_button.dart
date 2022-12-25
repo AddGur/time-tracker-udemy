@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../common_widgets/custom_raised_button.dart';
+import '../../common_widgets/custom_elevated_button.dart';
 
-class SocialSignInButton extends CustomRaisedButton {
+class SocialSignInButton extends CustomElevatedButton {
   SocialSignInButton({
     required String assetName,
     required String text,
