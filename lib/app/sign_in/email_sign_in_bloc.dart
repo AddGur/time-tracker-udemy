@@ -1,8 +1,5 @@
 import 'dart:async';
-import 'dart:math';
 
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:timetrackingapp_udemy/app/sign_in/email_sign_in_model.dart';
 import 'package:timetrackingapp_udemy/services/auth.dart';
 

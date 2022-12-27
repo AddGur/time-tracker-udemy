@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:provider/provider.dart';
 import 'package:timetrackingapp_udemy/app/sign_in/email_sign_in_form.dart';
 import 'package:timetrackingapp_udemy/app/sign_in/email_sing_in_form_bloc_based.dart';
+import 'package:timetrackingapp_udemy/app/sign_in/email_sing_in_form_change_notifier.dart';
 import 'package:timetrackingapp_udemy/services/auth.dart';
 
 class EmailSignInPage extends StatelessWidget {
@@ -21,7 +22,7 @@ class EmailSignInPage extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Card(
-            child: EmailSignInFormBlocBased.create(context),
+            child: EmailSignInFormChangeNotifier.create(context),
           ),
         ),
       ),
